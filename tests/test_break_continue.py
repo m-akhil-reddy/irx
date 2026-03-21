@@ -14,7 +14,7 @@ from irx.builders.llvmliteir import LLVMLiteIR, LLVMLiteIRVisitor
 from llvmlite import ir
 
 
-# 🔥 helper to setup function context (VERY IMPORTANT)
+#  helper to setup function context (VERY IMPORTANT)
 def setup_function_context(visitor: LLVMLiteIRVisitor) -> None:
     module = visitor._llvm.module
     func_ty = ir.FunctionType(ir.IntType(32), [])
