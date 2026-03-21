@@ -14,7 +14,6 @@ from irx.builders.llvmliteir import LLVMLiteIR, LLVMLiteIRVisitor
 from llvmlite import ir
 
 
-
 def setup_function_context(visitor: LLVMLiteIRVisitor) -> None:
     """
     title: Setup LLVM function context for IR generation.
